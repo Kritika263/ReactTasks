@@ -1,0 +1,30 @@
+.cartItems-container{
+    border: 1px solid black;
+    
+}
+.addedBook-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: fit-content;
+}
+.cart-buttons > button{
+    width: fit-content;
+        width: 40px;
+        text-align: center;
+        text-indent: 0;
+        align-self: center;
+}
+.cart-buttons > button:after{
+    display: none;
+  }
+.cart-buttons > div{
+    width: 20px;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}

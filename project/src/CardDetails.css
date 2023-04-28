@@ -1,0 +1,26 @@
+.card-details-container{
+    display: flex;
+    font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.img-container{
+    flex-basis: 25%;
+    flex-shrink: 0;
+    padding: 40px;
+}
+.img-container>img{
+    width: 80%;
+}
+.book-details-container{
+    text-align: start;
+}
+.details-buttons{
+    display: flex;
+    column-gap: 7px;
+}
+.book-details-container > h1{
+    color: black;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}

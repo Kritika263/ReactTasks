@@ -1,0 +1,10 @@
+.adress-form{
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+}
+
+.form-buttons{
+    display: flex;
+    column-gap: 4px;
+}
