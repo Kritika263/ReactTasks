@@ -1,0 +1,12 @@
+.input-field{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 80px;
+}
+.input-btn{
+    background-color: blue;
+  
+    color: aliceblue;
+}
